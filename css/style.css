@@ -204,7 +204,7 @@ h2.title{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding:80px 0 80px 0;
+	padding:80px 5px 80px 5px;
 	border-right: 1px solid #ffffff;
 	color: #ffffff;
 	height: 100%;
@@ -220,4 +220,30 @@ h2.title{
 	font-size: 14px;
 	text-transform: uppercase;
 	text-align: center;
+}
+/*service*/
+.br-bottom{
+	border-bottom: 1px solid #e5e5e5; 
+}
+.mr-top-30{
+	margin-top: 30px;
+}
+.service{
+	padding: 15px;
+}
+.service img{
+	display: block;
+}
+.service h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #333333;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+.service p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #999999;
 }
