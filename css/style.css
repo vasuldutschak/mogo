@@ -247,11 +247,99 @@ h2.title{
 	font-size: 14px;
 	color: #999999;
 }
-/*feaurure*/
-/*#feauture{
-	margin-top: 80px;
-	padding-top: 100px;
-	padding-bottom: 660px;
-	background: url("../img/feauture-bg.png") no-repeat;
-	background-size: cover;
-}*/
+
+/*feauture*/
+#feauture{
+	margin-top: 100px;
+}
+/*we do*/
+.mg-top-30{
+	margin-top: 30px;
+}
+.accordion_>.card_>label{
+        margin: 0;
+      }
+.card_{
+        border:1px solid #e5e5e5;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 55px;
+        overflow: hidden;
+    }
+.card-header_{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #333333;
+        padding: 20px 0 20px 60px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e5e5e5;
+        cursor: pointer;
+      }
+.card-content_{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        color: #999999;
+        padding: 20px;
+        text-align: left;
+        overflow-y: scroll;
+        max-height: 180px;
+        margin-right: 20px;
+
+      }
+      		/* Track */
+.card-content_::-webkit-scrollbar-track {
+            background: #f5f5f5;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+
+          /* Handle */
+.card-content_::-webkit-scrollbar-thumb {
+            background: #95e1d3;
+            border-radius: 10px;
+          }
+
+          /* Handle on hover */
+          .card-content_::-webkit-scrollbar-thumb:hover {
+	           background: #95e1d3;
+          }
+          .card-content_::-webkit-scrollbar {
+            width: 5px;
+          }
+          #heading-one_{
+            background: url(../img/photo.png) no-repeat left 15px center,
+            url("../img/arrow-down.png") no-repeat right 15px center;
+          }
+          #heading-two_{
+            background: url(../img/creat.png) no-repeat left 15px center,
+            url("../img/arrow-down.png") no-repeat right 15px center;
+          }
+          #heading-three_{
+            background: url(../img/bull.png) no-repeat left 15px center,
+            url("../img/arrow-down.png") no-repeat right 15px center;
+          }
+          #heading-one_:hover{
+          	cursor: pointer;
+          }
+          input[name="accr"]{
+          	display: none;
+          }
+          #r1:checked~#card_1{
+          		overflow: unset;
+          		height: initial;   
+          }
+         
+          #r2:checked~#card_2{
+          		overflow: unset;
+          		height: initial;   
+          }
+          #r3:checked~#card_3{
+          		overflow: unset;
+          		height: initial;         
+          		      
+          }
