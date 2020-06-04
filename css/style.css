@@ -377,3 +377,35 @@ h2.title{
 	left: 0;
 }
 
+/*team*/
+.mg-top-60{
+	margin-top: 60px;
+}
+#team .img-preview>.hover{
+	background: url(../img/team-bg.png) no-repeat;
+}
+#team .img-preview>.hover .content{
+	display: flex;
+	flex-direction: row;
+}
+#team .img-preview>.hover .content a{
+	display: block;
+	padding: 10px;
+	background: #fce38a;
+}
+#team .img-preview>.hover .content a:hover{
+	background: #f38181;
+}
+.username{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #333333;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.occupation{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #999999;
+}
