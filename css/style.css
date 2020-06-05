@@ -129,6 +129,9 @@ h3.title-action{
 	color: #333333;
 	margin-bottom: 20px;
 }
+h3.title-action:first-letter{
+	text-transform: uppercase;
+}
 h2.title{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -498,4 +501,71 @@ h2.title{
 }
 .pd-left-10{
 	padding-left: 10px; 
+}
+/*blog*/
+.blog .blog-image{
+	position: relative;
+}
+.blog .blog-image img{
+	width: 100%;
+	height: auto;
+}
+.blog .blog-image .publication{
+	position: absolute;
+	bottom: 10px;
+	left: -10px;
+	background-color: #95e1d3;
+	color: #ffffff;
+	padding: 15px;
+	text-align: center;
+}
+.blog .blog-image .publication h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0;
+}
+.blog .blog-image .publication h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	margin: 0;
+}
+.blog .blog-title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #333333;
+}
+.blog .blog-content{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.blog .blog-info{
+	display: flex;
+	margin-top: 10px;
+}
+.blog .blog-info .blog-view{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	color: #999999;
+	font-style: italic;
+	background: url("../img/view.png") no-repeat left center;
+	text-indent: 25px;
+	margin-right: 10px;
+}
+.blog .blog-info .blog-comment{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	color: #999999;
+	font-style: italic;
+	background: url("../img/comment.png") no-repeat left center;
+	text-indent: 25px;
+	margin-right: 10px;
 }
