@@ -415,3 +415,46 @@ h2.title{
 .ptb-30{
 	padding: 30px 0 30px 0;
 }
+/*work*/
+#work .img-preview>img{
+	margin: 0;
+}
+#work .img-preview>.hover{
+	top: 0;
+	left: 0;
+	background: url("../img/layer-hover-bg.png") no-repeat;
+	background-size: cover;
+}
+#work .img-preview>.hover img{
+	width: 100%;
+	height: auto;
+}
+#work .img-preview>.hover .content{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	margin: 0;
+}
+#work .img-preview>.hover .content>img{
+	width: auto;
+	margin-bottom: 10px;
+}
+#work .img-preview>.hover .content h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 0;
+}
+#work .img-preview>.hover .content p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	color: #ffffff;
+	text-transform: initial;
+	margin: 0;
+}
