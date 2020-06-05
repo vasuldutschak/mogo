@@ -569,3 +569,22 @@ h2.title{
 	text-indent: 25px;
 	margin-right: 10px;
 }
+/*map*/
+#map{
+	background: url("../img/map-bg.png") no-repeat;
+	background-size: cover;
+	padding: 30px 0 30px 0;
+}
+#map h3.title-action{
+	font-size: 24px;
+	color: #f38181;
+	margin-bottom: 10px;
+}
+#map h2.title{
+	font-size: 24px;
+	color: #f38181;
+	margin-bottom: 10px;
+}
+#map .title-line{
+	margin: 0;
+}
