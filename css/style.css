@@ -458,3 +458,44 @@ h2.title{
 	text-transform: initial;
 	margin: 0;
 }
+/*clients*/
+#clients{
+	background: url(../img/clients.png) no-repeat;
+	background-size: cover;
+	padding: 90px 0 90px 0;
+}
+.user-photo>img{
+	width: 100%;
+}
+.user-content .line{
+	display: block;
+	width: 60px;
+	height: 3px;
+	box-sizing: border-box;
+	background-color: #f38181;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.user-content>h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #333333;
+}
+.user-content>h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	color: #333333;
+}
+.user-content>p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+	text-align: left;
+	margin: 0;
+}
+.pd-left-10{
+	padding-left: 10px; 
+}
